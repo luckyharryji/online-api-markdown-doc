@@ -13,3 +13,7 @@ DATABASE_OPTIONS = {
 }
 
 PROJECT_NAME = "MARKDOWN_EDIT"
+
+MARKDOWN_EXT = ('codehilite', 'extra', 'strikethrough')
+MARKDOWN_CSS = join(scriptdir, 'styles/markdown.css')
+PYGMENTS_CSS = join(scriptdir, 'styles/pygments.css')
